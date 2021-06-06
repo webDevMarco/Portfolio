@@ -69,6 +69,7 @@ h3{
     font-size: 20px;
     line-height: 200%;
     letter-spacing: 1px;
+    color: red;
 }
 
 .services-wrapper{
@@ -82,17 +83,17 @@ h3{
     cursor: pointer;
     text-align: center;
     background-color: #ffffff;
-    border: 2px solid black;
+    border: 3px solid black;
     margin-bottom: 3%;
 }
 .service-boxes:hover{
-border: 2px solid red;
+border: 3px solid red;
 
 }
 
 
 img{
-    height: 222px;
+    height: 219px;
     margin-left: auto;
     margin-right: auto;
 
@@ -100,4 +101,9 @@ img{
 
 .hide{
     display: none;
+}
+
+#all-these-services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
