@@ -23,7 +23,7 @@
     <h1>Web Designer For Hire!</h1>
     <p class="paragraphs">My name is <b>Marco</b>, and I'm from the <b>East Side of Chicago.</b> I'm a <b>web developer</b> who can make your website mobile and desktop responsive. My goal is to <b>help small businesses</b> compete against these money-making machine corporations. I'm here to fully support those that have sacrificed their time, money and effort into <b>building our community.</b></p>
 
-
+    <p class="paragraphs" id="referal"><b>Refer a friend/business you will both receive a $15 giftcard to a small business of your choice!</b></p>
     <h2>What services do I offer?</h2>
 
     <section id ="all-these-services">
@@ -31,6 +31,7 @@
     </section>
 
     <h2>I will guide you through the process step by step</h2>
+<div id="fieldsetWrapper">
 
     <fieldset>
         <legend>Step One</legend>
@@ -86,7 +87,22 @@
                     <li>If you require any assistance after our deal is completed, depending on how time consuming the task is, there will be a small fee.</li>
             </ul>
     </fieldset>
+</div>
 
+
+<div id="contact-form-wrapper">
+    <h3>Interested in buying a website or a store evaluation?</h3>
+
+<div id="contact-form">
+    <form id="contact-form" method="post" action="contact-form.php">
+        <input name="name" type="text" class="form-control" placeholder="Name" required><br>
+        <input name="email" type="email" class="form-control" placeholder="Email" required><br>
+        <textarea name="message" class="form-control" placeholder="Message..." row="4" required></textarea><br>
+        <input type="submit" class="form-control submit" value="Send E-Mail">
+    </form>
+
+</div>
+</div>
 
 <script src="app.js"></script>
 </body>
