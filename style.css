@@ -73,6 +73,10 @@ h3{
     letter-spacing: 1px;
     text-align: center;
 }
+#referal{
+    color: red;
+    padding-top: 1%;
+}
 .service-paragraphs{
 line-height: 175%;
 font-size: 18px;
@@ -157,3 +161,59 @@ ul{
     margin-left: 5%;
     font-size: 16px;
 }
+
+#fieldsetWrapper{
+    margin-bottom: 3%;
+}
+
+
+
+/* Form */
+#contact-form-wrapper{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px dashed black;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+#contact-form{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: rgb(2, 2, 2);
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+form .submit{
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    padding: 5px;
+}
+::placeholder{
+    padding-left: 10px;
+
+}
+form input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+h3{
+    text-align: center;
+}
+
+
+/* Footer stuff */
